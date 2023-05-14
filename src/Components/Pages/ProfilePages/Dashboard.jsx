@@ -41,7 +41,7 @@ const Dashboard = () => {
                   </div>
                   <div className='card-footer'>
                     <div className='d-flex justify-content-between fs-4'>
-                      <span>
+                      <span> 
                         <Like like={x.like} postId={x.id}/>
                         <Comments postId={x.id} userPostId={postData?.id}/>
                         <FaShareSquare />
